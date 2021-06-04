@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Gloria+Hallelujah&family=Kalam:wght@300&family=Noticia+Text&family=Permanent+Marker&family=Source+Sans+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+body {
+  margin: auto;
+  width: 850px;
+  padding: auto;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 50px 1fr 300px;
+  align-items: center;
+  font-family: "Pacifico", cursive;
+}
+.para {
+  margin: 0;
+}
+header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+header p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.class2 {
+  text-align: right;
+}
+.choco {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 30px;
+}
+.posted {
+  margin: 0;
+  font-size: 12px;
+}
+.fonth1 {
+  margin: 0;
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: url(./asserts/list-bg.png);
+  height: 300px;
+  font-size: 15px;
+  font-family: "Gloria Hallelujah", cursive;
+  color: #999b84;
+}
+
+.van {
+  display: grid;
+  grid-template-columns: 90px 1fr 150px;
+  align-items: center;
+  gap: 10px;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+}
+
+.van div p {
+  margin: 0;
+}
+
+footer {
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+
+.sub-para {
+  font-family: "Bebas Neue", cursive;
+  color: gray;
+}
+
+.main-para {
+  font-family: "Roboto Slab", serif;
+  text-indent: 50px;
+  color: gray;
+}
+
+hr {
+  border-top: 1px solid gray;
+}
